@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  flex-wrap: wrap;
+}
+
+.cell {
+  border: 1px solid green;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.player {
+  background-image: url('images/ronaldo-sprint.jpg');
+}
+
+.player.ball {
+  background-image: url('images/ronaldo-ball.jpg');
+}
